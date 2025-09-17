@@ -1,0 +1,11 @@
+[project]
+name = "multimodal-review-summarizer"
+version = "0.1.0"
+description = "A multimodal LLMs-based approach to summarizing product reviews using image captioning and text analysis."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bson>=0.5.10",
+    "pandas>=2.3.2",
+    "pymongo>=4.15.1",
+]
